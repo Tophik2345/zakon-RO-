@@ -15171,18 +15171,18 @@
       ]
     },
     {
-      "id": "19-1.1.2-1",
+      "id": "19-1.1.1-1",
       "kind": "rule",
       "tab": "Проверки ПО",
-      "code": "ППО 1.1.2",
+      "code": "ППО 1.1.1",
       "title": "Во время проверки администрация обязуется вести диалог с уважением к проверяемому.",
-      "text": "1.1.2 Во время проверки администрация обязуется вести диалог с уважением к проверяемому. | Строгий выговор / Снятие.",
+      "text": "1.1.1 Во время проверки администрация обязуется вести диалог с уважением к проверяемому. | Строгий выговор / Снятие.",
       "punish": "Строгий выговор / Снятие.",
       "src": "ПРАВИЛА ПРОВЕРКИ НА СТОРОННЕЕ ПО",
       "url": "https://forum.russia.online/threads/pravila-proverki-na-storonneye-po.10/",
       "tags": [
         "ППО",
-        "1.1.2",
+        "1.1.1",
         "Проверки ПО"
       ]
     },
@@ -15336,7 +15336,7 @@
       "tab": "Проверки ПО",
       "code": "ППО 1.11",
       "title": "Администрация проекта не в праве требовать Вас скачать какие-либо файлы.",
-      "text": "1.11. Администрация проекта не в праве требовать Вас скачать какие-либо файлы. | Снятие.\nИсключение: LastActivityView, Everything, OpenIV, ProcessHacker,SystemInformer,BrowsingHistoryview, Journal Trace, USBDeview, UserAssistView. Recuva, EaseUS Data Recovery, Echo Bam, ShadowExplorer, CodeWalker, HWiNFO64, Zenmap.\nПримечание: скачивать необходимо только с верифицированных сайтов, например: nirsoft, voidtools.",
+      "text": "1.11. Администрация проекта не в праве требовать Вас скачать какие-либо файлы. | Снятие.\nИсключение: LastActivityView, Everything, OpenIV, ProcessHacker,SystemInformer,BrowsingHistoryview, Journal Trace, USBDeview, UserAssistView. Recuva, EaseUS Data Recovery, Echo Bam, ShadowExplorer, CodeWalker, HWiNFO64, Zenmap, CheatEngine.\nПримечание: скачивать необходимо только с верифицированных сайтов, например: nirsoft, voidtools.",
       "punish": "",
       "src": "ПРАВИЛА ПРОВЕРКИ НА СТОРОННЕЕ ПО",
       "url": "https://forum.russia.online/threads/pravila-proverki-na-storonneye-po.10/",
