@@ -1,0 +1,77 @@
+{
+  "name": "fsb-memo-kutuzovsky",
+  "version": "1.4.3",
+  "description": "Закон РО · Кутузовский · ГОС",
+  "main": "main.js",
+  "author": "FSB Memo",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "koffi": "^2.9.0",
+    "electron-updater": "^6.6.2"
+  },
+  "devDependencies": {
+    "electron": "^44.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win nsis"
+  },
+  "build": {
+    "appId": "online.russia.fsb.memo",
+    "productName": "Закон РО",
+    "directories": {
+      "output": "dist"
+    },
+    "asarUnpack": [
+      "node_modules/koffi/**"
+    ],
+    "files": [
+      "main.js",
+      "preload.js",
+      "home-preload.js",
+      "index.html",
+      "styles.css",
+      "app.js",
+      "home.html",
+      "home.css",
+      "home.js",
+      "features.css",
+      "search-engine.js",
+      "changes-ui.js",
+      "version.json",
+      "icon.ico",
+      "icon.png",
+      "kutuzovsky.json"
+    ],
+    "icon": "icon.ico",
+    "win": {
+      "icon": "icon.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "Zakon-RO-Setup-${version}.exe"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "Tophik2345",
+        "repo": "zakon-RO-"
+      }
+    ],
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "Закон РО",
+      "installerSidebar": "installer-sidebar.bmp",
+      "uninstallerSidebar": "installer-sidebar.bmp"
+    }
+  }
+}
