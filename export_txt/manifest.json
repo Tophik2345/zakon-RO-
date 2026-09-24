@@ -1,0 +1,360 @@
+{
+  "exported_at": "2026-09-24T06:44:54.238072+00:00",
+  "mode": "update",
+  "sections": [
+    "https://forum.russia.online/forums/zakonodatel-naya-baza.1604/",
+    "https://forum.russia.online/forums/general-server-rules/",
+    "https://forum.russia.online/forums/rules-of-state-organizations/",
+    "https://forum.russia.online/forums/rules-of-criminal-organizations/",
+    "https://forum.russia.online/forums/fsb.1602/"
+  ],
+  "stats": {
+    "new": 0,
+    "updated": 43,
+    "same": 1,
+    "failed": 0,
+    "removed": 4
+  },
+  "files": [
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ГОСУДАРСТВЕННЫХ ТЕРРИТОРИЯХ РО».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-o-gosudarstvennykh-territoriyakh-ro.4981/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ГОСУДАРСТВЕННЫХ ТЕРРИТОРИЯХ РО»",
+      "sha": "17fba722b6acfe419c36782a362e62dac26e5b26b14e99e595cb58fe85ef6f4e",
+      "bytes": 76803
+    },
+    {
+      "file": "ПРАВИЛА ДОРОЖНОГО ДВИЖЕНИЯ РО.txt",
+      "url": "https://forum.russia.online/threads/pravila-dorozhnogo-dvizheniya-ro.5269/",
+      "title": "ПРАВИЛА ДОРОЖНОГО ДВИЖЕНИЯ РО",
+      "sha": "0d3aff37a92898c2041032af5c49c5f872c31451e884b85ed65d64fe00ea1cb0",
+      "bytes": 62949
+    },
+    {
+      "file": "ТРУДОВОЙ КОДЕКС РО.txt",
+      "url": "https://forum.russia.online/threads/trudovoi-kodeks-ro.4943/",
+      "title": "ТРУДОВОЙ КОДЕКС РО",
+      "sha": "43cfcaf950759194e0e7e8a92c157ebe623f8159fc8bb2ca781a94a912152e1b",
+      "bytes": 79990
+    },
+    {
+      "file": "КОДЕКС РО ОБ АДМИНИСТРАТИВНЫХ ПРАВОНАРУШЕНИЯХ.txt",
+      "url": "https://forum.russia.online/threads/kodeks-ro-ob-administrativnykh-pravonarusheniyakh.4930/",
+      "title": "КОДЕКС РО ОБ АДМИНИСТРАТИВНЫХ ПРАВОНАРУШЕНИЯХ",
+      "sha": "84a6e526058650347e07a1ebe5b43e7f7731421fe675210bf836d74a40319d11",
+      "bytes": 93332
+    },
+    {
+      "file": "ПРОЦЕССУАЛЬНЫЙ КОДЕКС РО.txt",
+      "url": "https://forum.russia.online/threads/protsessual-nyi-kodeks-ro.4910/",
+      "title": "ПРОЦЕССУАЛЬНЫЙ КОДЕКС РО",
+      "sha": "c1d64e144af2990a9d1a811ab83ed719fe91e7d9cb520efe9f61943db612e967",
+      "bytes": 173062
+    },
+    {
+      "file": "УГОЛОВНЫЙ КОДЕКС РО.txt",
+      "url": "https://forum.russia.online/threads/ugolovnyi-kodeks-ro.4805/",
+      "title": "УГОЛОВНЫЙ КОДЕКС РО",
+      "sha": "b5641a2d24c9c409545e274eddd14350a8e1cb22bd414dbf6c230e2142c0100a",
+      "bytes": 147088
+    },
+    {
+      "file": "КОНСТИТУЦИЯ РО.txt",
+      "url": "https://forum.russia.online/threads/konstitutsiya-ro.4707/",
+      "title": "КОНСТИТУЦИЯ РО",
+      "sha": "e447b5eacdaae5ee1da6d60b818010d2d17c82d92bb25795de7588067c004963",
+      "bytes": 78965
+    },
+    {
+      "file": "ЗАКОН “О ПРЕДПРИНИМАТЕЛЬСКОЙ ДЕЯТЕЛЬНОСТИ РО”.txt",
+      "url": "https://forum.russia.online/threads/zakon-o-predprinimatel-skoi-deyatel-nosti-ro.17087/",
+      "title": "ЗАКОН “О ПРЕДПРИНИМАТЕЛЬСКОЙ ДЕЯТЕЛЬНОСТИ РО”",
+      "sha": "d657c190a7ce80e29b144b3680bcd26f0023503ff403254d5419a9c32aa4fb29",
+      "bytes": 46384
+    },
+    {
+      "file": "КОДЕКС ЭТИКИ И СЛУЖЕБНОГО ПОВЕДЕНИЯ ГОСУДАРСТВЕННЫХ СЛУЖАЩИХ РО.txt",
+      "url": "https://forum.russia.online/threads/kodeks-etiki-i-sluzhebnogo-povedeniya-gosudarstvennykh-sluzhashchikh-ro.5393/",
+      "title": "КОДЕКС ЭТИКИ И СЛУЖЕБНОГО ПОВЕДЕНИЯ ГОСУДАРСТВЕННЫХ СЛУЖАЩИХ РО",
+      "sha": "e3730cffbb6f209c32bcfdb36aa1083b563eea2ce279857e2cda9df24781c51f",
+      "bytes": 38450
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ПОЛИТИЧЕСКИХ ПАРТИЯХ».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-o-politicheskikh-partiyakh.5385/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ПОЛИТИЧЕСКИХ ПАРТИЯХ»",
+      "sha": "36fb32e59635b364bd65d3a4e4436be38bfff4e4260fba7ec664f08427180ca2",
+      "bytes": 34828
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН«О ФЕДЕРАЛЬНОЙ СЛУЖБЕ ОХРАНЫ РО».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-o-federal-noi-sluzhbe-okhrany-ro.5360/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН«О ФЕДЕРАЛЬНОЙ СЛУЖБЕ ОХРАНЫ РО»",
+      "sha": "baa2cf7eb1ad669bcad7d3f4908454df2a900000841e5c95207586781fb035e8",
+      "bytes": 56827
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН «ОБ ОРУЖИИ».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-ob-oruzhii.5343/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН «ОБ ОРУЖИИ»",
+      "sha": "e4f386041120e81f364fea4b1d24282acc325fb0a2391f52a121fe331f6a695b",
+      "bytes": 52322
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ВООРУЖЁННЫХ СИЛАХ РО».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-o-vooruzhennykh-silakh-ro.5338/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ВООРУЖЁННЫХ СИЛАХ РО»",
+      "sha": "1c4afd2bf4c70df8108570b405800affa6ce022903587ec627fb4f66353dba0b",
+      "bytes": 41907
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ГОСУДАРСТВЕННОЙ ТАЙНЕ».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-o-gosudarstvennoi-taine.5320/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ГОСУДАРСТВЕННОЙ ТАЙНЕ»",
+      "sha": "80ae30a4e1a6e6fc6940d9bc7e92cfa87c14ff9aac53fd95c3ad707e28f09368",
+      "bytes": 28587
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ФЕДЕРАЛЬНОЙ СЛУЖБЕ БЕЗОПАСНОСТИ РО».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-o-federal-noi-sluzhbe-bezopasnosti-ro.5310/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ФЕДЕРАЛЬНОЙ СЛУЖБЕ БЕЗОПАСНОСТИ РО»",
+      "sha": "e27763b299ea9753695e56b7777b97783e82ce547163d7c44365c680f03546b0",
+      "bytes": 94105
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ПОЛИЦИИ».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-o-politsii.5257/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ПОЛИЦИИ»",
+      "sha": "8aa603d65ef08ae910b47f3d79cba296765c2a5a9b60c1a25aef9d1110af8cd7",
+      "bytes": 85204
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН«О ГОСУДАРСТВЕННОЙ ИНСПЕКЦИИ БЕЗОПАСНОСТИ ДОРОЖНОГО ДВИЖЕНИЯ».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-o-gosudarstvennoi-inspektsii-bezopasnosti-dorozhnogo-dvizheniya.5250/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН«О ГОСУДАРСТВЕННОЙ ИНСПЕКЦИИ БЕЗОПАСНОСТИ ДОРОЖНОГО ДВИЖЕНИЯ»",
+      "sha": "c4ec643089198c8fa6ac8e3517517470e206e27366fc766c917080555b461f9c",
+      "bytes": 87630
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О СЛЕДСТВЕННОМ КОМИТЕТЕ РО».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-o-sledstvennom-komitete-ro.5245/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О СЛЕДСТВЕННОМ КОМИТЕТЕ РО»",
+      "sha": "137bad67e3c23823fc4cc904c1497b2f820fb30153eea6d3923a3b38b7abe602",
+      "bytes": 80330
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ПРОКУРАТУРЕ РО».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-o-prokurature-ro.5234/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ПРОКУРАТУРЕ РО»",
+      "sha": "cd73c90b81f669475f2dc28d521c8791c8f24f3d762d8f115695b31802a6f6aa",
+      "bytes": 109176
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН «ОБ АДВОКАТУРЕ И АДВОКАТСКОЙ ДЕЯТЕЛЬНОСТИ».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-ob-advokature-i-advokat-skoi-deyatel-nosti.4975/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН«ОБ АДВОКАТУРЕ И АДВОКАТСКОЙ ДЕЯТЕЛЬНОСТИ»",
+      "sha": "3ed6a40486e6d70e90246cb77c53a812fb4d015e0a1c646ce61d925e17df7346",
+      "bytes": 35509
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН «ОБ ОХРАНЕ ЗДОРОВЬЯ ГРАЖДАН».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-ob-okhrane-zdorov-ya-grazhdan.4972/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН «ОБ ОХРАНЕ ЗДОРОВЬЯ ГРАЖДАН»",
+      "sha": "797af3ecc01739fe5506b2d55a9da1e182cd50b494a39ae34c5c0001867f46c5",
+      "bytes": 44713
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ГОСУДАРСТВЕННОЙ СЛУЖБЕ РО».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-o-gosudarstvennoi-sluzhbe-ro.4971/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О ГОСУДАРСТВЕННОЙ СЛУЖБЕ РО»",
+      "sha": "bc7b142523db9a53cea6f24560d8877ab8ba9d9e785bf611a828b654eac80f92",
+      "bytes": 25231
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О НЕПРИКОСНОВЕННОСТИ ДОЛЖНОСТНЫХ ЛИЦ РО».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-o-neprikosnovennosti-dolzhnostnykh-lits-ro.4967/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН «О НЕПРИКОСНОВЕННОСТИ ДОЛЖНОСТНЫХ ЛИЦ РО»",
+      "sha": "4db6ae251e812999d0cea87abaf4d4cbbfd966ea1ce36e72fe5a283c6dd41f7a",
+      "bytes": 56112
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ КОНСТИТУЦИОННЫЙ ЗАКОН «О ЧРЕЗВЫЧАЙНОМ И ВОЕННОМ ПОЛОЖЕНИИ».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-konstitutsionnyi-zakon-o-chrezvychainom-i-voyennom-polozhenii.4964/",
+      "title": "ФЕДЕРАЛЬНЫЙ КОНСТИТУЦИОННЫЙ ЗАКОН «О ЧРЕЗВЫЧАЙНОМ И ВОЕННОМ ПОЛОЖЕНИИ»",
+      "sha": "4222e71406b28af131195b0b3c8ae8b356feb175f23ce3011afb5753ea1f5e49",
+      "bytes": 22656
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ КОНСТИТУЦИОННЫЙ ЗАКОН «О ПРЕМЬЕР-МИНИСТРЕ РО И ПРАВИТЕЛЬСТВЕ РО».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-konstitutsionnyi-zakon-o-prem-yer-ministre-ro-i-pravitel-stve-ro.4958/",
+      "title": "ФЕДЕРАЛЬНЫЙ КОНСТИТУЦИОННЫЙ ЗАКОН «О ПРЕМЬЕР-МИНИСТРЕ РО И ПРАВИТЕЛЬСТВЕ РО»",
+      "sha": "80e3cd38e4ad3e97a60c4f6d2f0de0993cd22a9c25bf5bf34a3eb033f67a5484",
+      "bytes": 91119
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ КОНСТИТУЦИОННЫЙ ЗАКОН «О ФЕДЕРАЛЬНЫХ МИНИСТЕРСТВАХ РО».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-konstitutsionnyi-zakon-o-federal-nykh-ministerstvakh-ro.4949/",
+      "title": "ФЕДЕРАЛЬНЫЙ КОНСТИТУЦИОННЫЙ ЗАКОН «О ФЕДЕРАЛЬНЫХ МИНИСТЕРСТВАХ РО»",
+      "sha": "4351d236eded3e575e1b81410b0cd1231e80d68278a969bf2e3862f615c4d403",
+      "bytes": 65315
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ КОНСТИТУЦИОННЫЙ ЗАКОН«О СУДЕБНОЙ СИСТЕМЕ РО».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-konstitutsionnyi-zakon-o-sudebnoi-sisteme-ro.4892/",
+      "title": "ФЕДЕРАЛЬНЫЙ КОНСТИТУЦИОННЫЙ ЗАКОН«О СУДЕБНОЙ СИСТЕМЕ РО»",
+      "sha": "982f152a98e2e56ed2c93483e094cb4c0cbb408f681f0701cf542518dfbe8119",
+      "bytes": 117089
+    },
+    {
+      "file": "ФКЗ «О ГОСУДАРСТВЕННОЙ ДУМЕ РО».txt",
+      "url": "https://forum.russia.online/threads/fkz-o-gosudarstvennoi-dume-ro.4751/",
+      "title": "ФКЗ «О ГОСУДАРСТВЕННОЙ ДУМЕ РО»",
+      "sha": "b21a17e0b9076565d0abf6edc9b686ff59c24a43c905fdf17c67f36d28c4a4d7",
+      "bytes": 48974
+    },
+    {
+      "file": "ОСНОВНЫЕ ПРАВИЛА ПРОЕКТА.txt",
+      "url": "https://forum.russia.online/threads/osnovnyye-pravila-proyekta.1/",
+      "title": "ОСНОВНЫЕ ПРАВИЛА ПРОЕКТА",
+      "sha": "977842ed14859169e035715efce53fc59ac47b2437d3017d28c5675cc54f323c",
+      "bytes": 39104
+    },
+    {
+      "file": "ПРАВИЛА ВОЕННОГО ПОЛОЖЕНИЯ.txt",
+      "url": "https://forum.russia.online/threads/pravila-voyennogo-polozheniya.14/",
+      "title": "ПРАВИЛА ВОЕННОГО ПОЛОЖЕНИЯ",
+      "sha": "cdec0bff75d6d55094ee100e88a8272f1937ea0f2a96ca37ab752500c055a741",
+      "bytes": 5975
+    },
+    {
+      "file": "ПРАВИЛА ПЕРЕХВАТА ПОСТАВОК.txt",
+      "url": "https://forum.russia.online/threads/pravila-perekhvata-postavok.3/",
+      "title": "ПРАВИЛА ПЕРЕХВАТА ПОСТАВОК",
+      "sha": "6eaa14942bbb086b50e6230c8ebb1ec607cb52ca757f894e0ea7a09d905e1f9e",
+      "bytes": 21852
+    },
+    {
+      "file": "ПРАВИЛА ОГРАБЛЕНИЙ И ПОХИЩЕНИЙ.txt",
+      "url": "https://forum.russia.online/threads/pravila-ograblenii-i-pokhishchenii.5/",
+      "title": "ПРАВИЛА ОГРАБЛЕНИЙ И ПОХИЩЕНИЙ",
+      "sha": "4138aaea07501184aa55cbd16dd057c7a53ef1e48d32d83cc55f8b80dd77c108",
+      "bytes": 22082
+    },
+    {
+      "file": "ПРАВИЛА ЗАХВАТА ЦЕХОВ И ДИЛЛЕРОВ.txt",
+      "url": "https://forum.russia.online/threads/pravila-zakhvata-tsekhov-i-dillerov.1047/",
+      "title": "ПРАВИЛА ЗАХВАТА ЦЕХОВ И ДИЛЛЕРОВ",
+      "sha": "2a3b1a061fc343d791a201913fc549b44e1bdddf5e5f390d5d0dfaf50a4c300d",
+      "bytes": 3787
+    },
+    {
+      "file": "ПРАВИЛА НАПАДЕНИЯ  ОБОРОНЫ ТЕРРИТОРИИ ФОРТА.txt",
+      "url": "https://forum.russia.online/threads/pravila-napadeniya-oborony-territorii-forta.15/",
+      "title": "ПРАВИЛА НАПАДЕНИЯ / ОБОРОНЫ ТЕРРИТОРИИ ФОРТА",
+      "sha": "005cd67baeb12c0ae08ea091bc0a28d1567ab4a216221d67d35f83e351092230",
+      "bytes": 10524
+    },
+    {
+      "file": "ПРАВИЛА ПРОВЕРКИ НА СТОРОННЕЕ ПО.txt",
+      "url": "https://forum.russia.online/threads/pravila-proverki-na-storonneye-po.10/",
+      "title": "ПРАВИЛА ПРОВЕРКИ НА СТОРОННЕЕ ПО",
+      "sha": "f3e42189ca46cef0e111511edf29540a2f91b22d402124634627c8f6a100e36d",
+      "bytes": 5422
+    },
+    {
+      "file": "ФОРУМНЫЕ ПРАВИЛА.txt",
+      "url": "https://forum.russia.online/threads/forumnyye-pravila.7/",
+      "title": "ФОРУМНЫЕ ПРАВИЛА",
+      "sha": "bec93b4f167e9e36e44ead02577fa3a64c0b13a406a2082d8a318a73f95f42f6",
+      "bytes": 13193
+    },
+    {
+      "file": "ПРАВИЛА ОГРАБЛЕНИЯ БИЗНЕСОВ.txt",
+      "url": "https://forum.russia.online/threads/pravila-ogrableniya-biznesov.6/",
+      "title": "ПРАВИЛА ОГРАБЛЕНИЯ БИЗНЕСОВ",
+      "sha": "774920c712e35063c6523c424648e67628834b643c446171f125c9529660a554",
+      "bytes": 4781
+    },
+    {
+      "file": "ПРАВИЛА ОГРАБЛЕНИЯ БАНКОВ.txt",
+      "url": "https://forum.russia.online/threads/pravila-ogrableniya-bankov.4/",
+      "title": "ПРАВИЛА ОГРАБЛЕНИЯ БАНКОВ",
+      "sha": "9cd0c51355fe30130d770a79a961654fabe435faaed564a2613b3b0f2198faad",
+      "bytes": 5592
+    },
+    {
+      "file": "ПРАВИЛА ДЛЯ ЛИДЕРОВ ФРАКЦИЙ.txt",
+      "url": "https://forum.russia.online/threads/pravila-dlya-liderov-fraktsii.2/",
+      "title": "ПРАВИЛА ДЛЯ ЛИДЕРОВ ФРАКЦИЙ",
+      "sha": "68fa534137ee76037e62479c78e0a4fcd478ef1e36177a63f1c01ca8df125574",
+      "bytes": 12989
+    },
+    {
+      "file": "ПРАВИЛА ГОСУДАРСТВЕННЫХ ОРГАНИЗАЦИЙ.txt",
+      "url": "https://forum.russia.online/threads/pravila-gosudarstvennykh-organizatsii.11/",
+      "title": "ПРАВИЛА ГОСУДАРСТВЕННЫХ ОРГАНИЗАЦИЙ",
+      "sha": "d159857a4961e6befb3d2b6ad620f78d27c906a988ec917c0de2c44c7bd11b49",
+      "bytes": 58454
+    },
+    {
+      "file": "ПРАВИЛА ВОЙНЫ ЗА ТЕРРИТОРИЮ.txt",
+      "url": "https://forum.russia.online/threads/pravila-voiny-za-territoriyu.20184/",
+      "title": "ПРАВИЛА ВОЙНЫ ЗА ТЕРРИТОРИЮ",
+      "sha": "c65379108608ca8128de6f289794d0723cad04b120581850597ba9529d56d7d1",
+      "bytes": 12450
+    },
+    {
+      "file": "ПРАВИЛА КРИМИНАЛЬНЫХ ОРГАНИЗАЦИЙ.txt",
+      "url": "https://forum.russia.online/threads/pravila-kriminal-nykh-organizatsii.12/",
+      "title": "ПРАВИЛА КРИМИНАЛЬНЫХ ОРГАНИЗАЦИЙ",
+      "sha": "9265cdc864dfa89d6506f763d7c35d1cf434244940855fd9dd23311caca1fc36",
+      "bytes": 14050
+    },
+    {
+      "file": "КАНЦЕЛЯРИЯ ФЕДЕРАЛЬНОЙ СЛУЖБЫ БЕЗОПАСНОСТИ РО.txt",
+      "url": "https://forum.russia.online/threads/kantselyariya-federal-noi-sluzhby-bezopasnosti-ro.4626/",
+      "title": "КАНЦЕЛЯРИЯ ФЕДЕРАЛЬНОЙ СЛУЖБЫ БЕЗОПАСНОСТИ РО",
+      "sha": "49f939387ef6f776a546cacdb38de6bc637d87832698f4f4ef697d4da88b2afe",
+      "bytes": 487
+    },
+    {
+      "file": "ВНУТРЕННИЙ УСТАВ ФЕДЕРАЛЬНОЙ СЛУЖБЫ БЕЗОПАСНОСТИ.txt",
+      "url": "https://forum.russia.online/threads/vnutrennii-ustav-federal-noi-sluzhby-bezopasnosti.4634/",
+      "title": "ВНУТРЕННИЙ УСТАВ ФЕДЕРАЛЬНОЙ СЛУЖБЫ БЕЗОПАСНОСТИ",
+      "sha": "b684ca556937013efe33ddfdf39e218a67b416603db770b522445f03d5cb4aad",
+      "bytes": 42176
+    },
+    {
+      "file": "ПОЛОЖЕНИЕ ОБ УПРАВЛЕНИЯХ СОБСТВЕННОЙ БЕЗОПАСТНОСТИ ФСБ.txt",
+      "url": "https://forum.russia.online/threads/polozheniye-ob-upravleniyakh-sobstvennoi-bezopastnosti-fsb.4629/",
+      "title": "ПОЛОЖЕНИЕ ОБ УПРАВЛЕНИЯХ СОБСТВЕННОЙ БЕЗОПАСТНОСТИ ФСБ",
+      "bytes": 207,
+      "sha": "91bf3ee13ce40fd17955897e471f2238157efabbebccd65e010f54c246a73569",
+      "missing": true
+    },
+    {
+      "file": "КАНЦЕЛЯРИЯ ФЕДЕРАЛЬНОЙ СЛУЖБЫ БЕЗОПАСНОСТИ РОССИЙСКОЙ ФЕДЕРАЦИИ.txt",
+      "url": "https://forum.russia.online/threads/kantselyariya-federal-noi-sluzhby-bezopasnosti-rossiiskoi-federatsii.4626/",
+      "title": "КАНЦЕЛЯРИЯ ФЕДЕРАЛЬНОЙ СЛУЖБЫ БЕЗОПАСНОСТИ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+      "bytes": 545,
+      "sha": "36d780124edd3788e2d8ab175bc5469789a8480c2d4249a7f96e4d42cfc94abf",
+      "missing": true
+    },
+    {
+      "file": "ДОКУМЕНТАЦИЯ УСБ.txt",
+      "url": "https://forum.russia.online/threads/dokumentatsiya-usb.19752/",
+      "title": "ДОКУМЕНТАЦИЯ УСБ",
+      "bytes": 225,
+      "sha": "10467a2dc1bac47db764905a69ea79d701e45ef6c544a9405b4605255f8e6fde",
+      "missing": true
+    },
+    {
+      "file": "ФЕДЕРАЛЬНЫЙ ЗАКОН«О СТАТУСЕ ТЕРРИТОРИЙ И ОСОБЫХ ОБЪЕКТАХ РО».txt",
+      "url": "https://forum.russia.online/threads/federal-nyi-zakon-o-statuse-territorii-i-osobykh-ob-yektakh-ro.4981/",
+      "title": "ФЕДЕРАЛЬНЫЙ ЗАКОН«О СТАТУСЕ ТЕРРИТОРИЙ И ОСОБЫХ ОБЪЕКТАХ РО»",
+      "bytes": 40159,
+      "sha": "41e669bb238548deedb53f3bc4c5ed5fc072a6278b4c047e057db7fa3504629e",
+      "missing": true
+    }
+  ]
+}
