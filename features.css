@@ -1,0 +1,28 @@
+.utilitybar { flex-wrap: wrap; }
+.search-hint { padding: 0 14px 8px; color: #e7c27a; font-size: 12px; }
+.point-row { display:flex; gap:8px; padding:7px; margin:3px 0; border:1px solid transparent; border-radius:6px; cursor:text; }
+.point-row input { flex:none; align-self:flex-start; margin-top:5px; }
+.point-row span { flex:1; }
+.copy-point { align-self:flex-start; border:1px solid #536275; background:transparent; color:inherit; border-radius:4px; cursor:pointer; padding:3px 6px; }
+.point-row.selected { background:#26475a; border-color:#79b2d6; }
+.point-row.search-target { outline:2px solid #d7b564; background:#514323; }
+.article-tools { display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin-top:12px; }
+.article-tools button, .memo-dialog button, .memo-dialog select { color:inherit; background:var(--card,#202833); border:1px solid var(--line,#536275); padding:7px 9px; border-radius:6px; cursor:pointer; }
+.changed-note { width:100%; color:#e7c27a; }
+.copy-status { font-size:12px; }
+.memo-dialog { box-sizing:border-box; width:94vw; max-width:1000px; max-height:90vh; overflow:auto; background:var(--panel,#141a22); color:var(--text,#e6edf5); border:1px solid #536275; border-radius:12px; padding:18px; font:13px/1.5 system-ui; -webkit-app-region:no-drag; }
+.memo-dialog::backdrop { background:#0009; }
+.dialog-close { float:right; }
+.memo-dialog h2 { margin:0 0 10px; }
+.comparison { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.comparison section { min-width:0; }
+.comparison pre { white-space:pre-wrap; overflow-wrap:anywhere; font:inherit; }
+.comparison del { color:#ffd6d6; background:#682e35; }
+.comparison ins { color:#d2ffdc; background:#225735; text-decoration:none; }
+.change-list details { border-top:1px solid #536275; padding:10px 0; }
+.change-list summary { cursor:pointer; }
+@media(max-width:700px) { .comparison { grid-template-columns:1fr; } }
+
+.selection-help { width:100%; font-size:12px; color:var(--muted,#b7c0cc); }
+.article-tools button:disabled { opacity:.5; cursor:default; }
+.article-tools { position:sticky; top:0; z-index:2; background:var(--panel,#141a22); padding:8px; border-radius:6px; }

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Закон РО</title>
+  <link rel="stylesheet" href="home.css" />
+  <link rel="stylesheet" href="features.css" />
+</head>
+<body>
+  <div class="shell">
+    <div id="banner" class="banner" hidden>
+      <span id="bannerText">Доступна новая версия</span>
+      <button type="button" id="bannerBtn">Обновить</button>
+    </div>
+    <header class="top">
+      <span></span>
+      <div class="win">
+        <button id="min">–</button>
+        <button id="cls">×</button>
+      </div>
+    </header>
+    <div class="grid">
+      <section class="left">
+        <h1>Закон РО</h1>
+        <p class="sub">Россия Онлайн · ГОС</p>
+        <p class="lbl">Версия базы данных</p>
+        <label class="box">
+          <select id="server">
+            <option value="kutuz" selected>Кутузовский</option>
+            <option value="soon1" disabled>Скоро</option>
+            <option value="soon2" disabled>Скоро</option>
+          </select>
+        </label>
+        <div class="ok" id="upd"><span class="ok-ico">✓</span><span id="updTxt">Законодательная база обновляется автоматически.<br />Локальная база доступна без интернета</span></div>
+        <button type="button" class="chk db-change-info" id="dbChangeInfo" hidden>Есть изменения в законах</button>
+        <p class="lbl hot-lbl">Горячая клавиша поиска</p>
+        <button id="hot" class="hot">Control+Shift+F</button>
+        <p class="hint">Нажмите чтобы изменить. Работает с любой<br />раскладкой клавиатуры.</p>
+      </section>
+      <section class="right">
+        <ul class="log">
+          <li>
+            <b>28.08.2026</b>
+            <ul>
+              <li>Обновления скачиваются в фоне. Установка — по кнопке «Перезапустить и обновить»</li>
+              <li>Добавлен ФЗ о государственных территориях РО</li>
+              <li>Обновлены Уголовный и Процессуальный кодексы</li>
+              <li>Окно главной уменьшено как у Laws</li>
+              <li>Текст: законодательная база обновляется автоматически</li>
+            </ul>
+          </li>
+          <li>
+            <b>27.08.2026</b>
+            <ul>
+              <li>Первая сборка памятки для Кутузовского</li>
+              <li>База: УК, КоАП, УПК, ПДД, федеральные законы и правила проекта</li>
+              <li>Внутренний Устав ФСБ во вкладке Законы</li>
+              <li>Главное окно и поиск поверх игры по горячей клавише</li>
+              <li>Вкладки Законы / Правила</li>
+              <li>Подсветка найденного текста, копирование статьи</li>
+              <li>Один крестик очистки поиска</li>
+              <li>Смена сочетания клавиш, автоскрытие окна</li>
+              <li>Слайдер прозрачности</li>
+              <li>База законов обновляется при запуске</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="links">
+      <span>Связаться с разработчиком</span>
+      <button id="tg" class="contact">TG @Khazb1</button>
+      <button id="ds" class="contact">DS linyks3</button>
+      <button id="themeHomeOpen" class="contact theme-home-open">🎨 Тема</button>
+    </div>
+    <section class="home-theme-panel" id="homeThemePanel" hidden aria-label="Цветовая тема">
+      <div class="home-theme-title">
+        <strong>Цветовая тема</strong>
+        <button type="button" id="themeHomeClose" class="home-theme-close" aria-label="Закрыть">×</button>
+      </div>
+      <p class="home-theme-hint">Выберите готовый вариант или настройте любой цвет. Изменение применяется ко всей памятке.</p>
+      <div class="home-theme-swatches">
+        <button type="button" class="home-theme-swatch" data-color="#6d7b8c" style="--swatch:#6d7b8c" aria-label="Серый"></button>
+        <button type="button" class="home-theme-swatch" data-color="#5865f2" style="--swatch:#5865f2" aria-label="Discord"></button>
+        <button type="button" class="home-theme-swatch" data-color="#3b82f6" style="--swatch:#3b82f6" aria-label="Синий"></button>
+        <button type="button" class="home-theme-swatch" data-color="#06b6d4" style="--swatch:#06b6d4" aria-label="Голубой"></button>
+        <button type="button" class="home-theme-swatch" data-color="#10b981" style="--swatch:#10b981" aria-label="Зелёный"></button>
+        <button type="button" class="home-theme-swatch" data-color="#eab308" style="--swatch:#eab308" aria-label="Золотой"></button>
+        <button type="button" class="home-theme-swatch" data-color="#f97316" style="--swatch:#f97316" aria-label="Оранжевый"></button>
+        <button type="button" class="home-theme-swatch" data-color="#ef4444" style="--swatch:#ef4444" aria-label="Красный"></button>
+        <button type="button" class="home-theme-swatch" data-color="#ec4899" style="--swatch:#ec4899" aria-label="Розовый"></button>
+        <button type="button" class="home-theme-swatch" data-color="#a855f7" style="--swatch:#a855f7" aria-label="Фиолетовый"></button>
+      </div>
+      <label class="home-custom-theme">
+        <span>Свой цвет</span>
+        <input type="color" id="themeHomeColor" value="#6d7b8c" />
+        <output id="themeHomeColorValue">#6d7b8c</output>
+      </label>
+      <label class="home-theme-setting"><span>Яркость</span><input type="range" id="themeHomeBrightness" min="0" max="100" value="50" /><output id="themeHomeBrightnessValue">50%</output></label>
+      <label class="home-theme-setting"><span>Насыщенность</span><input type="range" id="themeHomeSaturation" min="0" max="100" value="70" /><output id="themeHomeSaturationValue">70%</output></label>
+      <label class="home-theme-setting"><span>Цвет текста</span><input type="color" id="themeHomeTextColor" value="#e6edf5" /><output id="themeHomeTextColorValue">#e6edf5</output></label>
+      <button type="button" id="themeHomeReset" class="home-theme-reset">Сбросить тему</button>
+    </section>
+  </div>
+  <script src="search-engine.js"></script>
+  <script src="changes-ui.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>

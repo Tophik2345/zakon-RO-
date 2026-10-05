@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ФСБ · Кутузовский</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="features.css" />
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="bar">
+      <label class="search">
+        <span class="ico">⌕</span>
+        <input id="q" type="text" placeholder="Поиск по законам" autocomplete="off" />
+        <button type="button" id="clear" class="clear" hidden aria-label="Очистить">×</button>
+      </label>
+      <div class="mode">
+        <button class="mode-btn on" data-mode="laws">Законы</button>
+        <button class="mode-btn" data-mode="rules">Правила</button>
+      </div>
+    </header>
+    <div class="subbar">
+      <nav class="cats" id="cats"></nav>
+      <select id="extra" class="extra">
+        <option value="">Показать все</option>
+      </select>
+      <label class="server">
+        <select id="server">
+          <option value="kutuz" selected>Кутузовский</option>
+          <option value="soon1" disabled>Скоро</option>
+          <option value="soon2" disabled>Скоро</option>
+        </select>
+      </label>
+    </div>
+    <div class="utilitybar">
+      <button type="button" class="utility-btn" id="favoritesView" data-tip="Твои статьи со звездой. Видны только на этом компьютере.">★ Избранное</button>
+      <button type="button" class="utility-btn" id="historyView" data-tip="Последние запросы и открытые статьи. Хранятся только локально.">◷ История</button>
+      <button type="button" class="utility-btn" id="pinnedView" data-tip="Закреплённые тобой статьи. Другие игроки их не видят.">📌 Закреплённые</button>
+      <button type="button" class="utility-btn" id="rpOpen" data-tip="Готовые RP-шаблоны. Нажатие копирует выбранный текст.">RP-команды</button>
+      <button type="button" class="utility-btn" id="compactToggle" data-tip="Уменьшает окно памятки, чтобы оно меньше закрывало игру.">Компактно</button>
+      <button type="button" class="utility-btn" id="toolsOpen" data-tip="Настройки, проверка базы, резервные копии и серверы.">Инструменты <span id="changesBadge" hidden>!</span></button>
+    </div>
+    <div id="searchHint" class="search-hint" hidden></div>
+    <div class="feed" id="feed"></div>
+    <section class="side-panel rp-panel" id="rpPanel" hidden>
+      <div class="theme-title"><strong>Быстрые RP-команды</strong><button type="button" id="rpClose" class="panel-close">×</button></div>
+      <p class="theme-hint">Нажмите на шаблон — он скопируется целиком.</p>
+      <div id="rpCommands" class="rp-commands"></div>
+    </section>
+    <section class="side-panel tools-panel" id="toolsPanel" hidden>
+      <div class="theme-title"><strong>Инструменты</strong><button type="button" id="toolsClose" class="panel-close">×</button></div>
+      <div class="tool-grid">
+        <button type="button" id="exportSettings" data-tip="Сохранить тему, избранное и остальные настройки в JSON-файл.">Экспорт настроек</button>
+        <button type="button" id="importSettings" data-tip="Восстановить свои настройки из сохранённого JSON-файла.">Импорт настроек</button>
+        <input type="file" id="settingsFile" accept="application/json,.json" hidden />
+        <button type="button" id="validateDb" data-tip="Найти пустые статьи, повторяющиеся номера и другие ошибки.">Проверить базу</button>
+        <button type="button" id="restoreBackup" data-tip="Вернуть последнюю локальную копию базы.">Вернуть резервную копию</button>
+        <button type="button" id="showChanges" data-tip="Показать добавленные, изменённые и удалённые статьи.">Изменения законов</button>
+      </div>
+      <p class="local-note">Избранное, история и закрепления хранятся только на этом компьютере. Другие игроки их не видят.</p>
+      <pre id="toolsResult" class="tools-result">Здесь появится результат.</pre>
+    </section>
+    <section class="theme-panel" id="themePanel" hidden aria-label="Цветовая тема">
+      <div class="theme-title">
+        <strong>Цветовая тема</strong>
+        <button type="button" id="themeClose" class="panel-close" aria-label="Закрыть">×</button>
+      </div>
+      <p class="theme-hint">Выберите готовый цвет или настройте любой свой. Тема применяется ко всей памятке.</p>
+      <div class="theme-swatches" id="themeSwatches">
+        <button type="button" class="theme-swatch" data-color="#6d7b8c" style="--swatch:#6d7b8c" aria-label="Серый"></button>
+        <button type="button" class="theme-swatch" data-color="#5865f2" style="--swatch:#5865f2" aria-label="Discord"></button>
+        <button type="button" class="theme-swatch" data-color="#3b82f6" style="--swatch:#3b82f6" aria-label="Синий"></button>
+        <button type="button" class="theme-swatch" data-color="#06b6d4" style="--swatch:#06b6d4" aria-label="Голубой"></button>
+        <button type="button" class="theme-swatch" data-color="#10b981" style="--swatch:#10b981" aria-label="Зелёный"></button>
+        <button type="button" class="theme-swatch" data-color="#eab308" style="--swatch:#eab308" aria-label="Золотой"></button>
+        <button type="button" class="theme-swatch" data-color="#f97316" style="--swatch:#f97316" aria-label="Оранжевый"></button>
+        <button type="button" class="theme-swatch" data-color="#ef4444" style="--swatch:#ef4444" aria-label="Красный"></button>
+        <button type="button" class="theme-swatch" data-color="#ec4899" style="--swatch:#ec4899" aria-label="Розовый"></button>
+        <button type="button" class="theme-swatch" data-color="#a855f7" style="--swatch:#a855f7" aria-label="Фиолетовый"></button>
+      </div>
+      <label class="custom-theme">
+        <span>Свой цвет</span>
+        <input type="color" id="themeColor" value="#6d7b8c" />
+        <output id="themeColorValue">#6d7b8c</output>
+      </label>
+      <label class="theme-setting"><span>Яркость</span><input type="range" id="themeBrightness" min="0" max="100" value="50" /><output id="themeBrightnessValue">50%</output></label>
+      <label class="theme-setting"><span>Насыщенность</span><input type="range" id="themeSaturation" min="0" max="100" value="70" /><output id="themeSaturationValue">70%</output></label>
+      <label class="theme-setting"><span>Цвет текста</span><input type="color" id="themeTextColor" value="#e6edf5" /><output id="themeTextColorValue">#e6edf5</output></label>
+      <button type="button" id="themeReset" class="theme-reset">Сбросить тему</button>
+    </section>
+    <footer class="foot">
+      <label class="auto"><input type="checkbox" id="autohide" checked /> Скрывать при уходе курсора</label>
+      <div class="foot-tools">
+        <button type="button" id="themeOpen" class="theme-open" data-tip="Изменить цвет, яркость, насыщенность и цвет текста.">Тема</button>
+        <input type="range" id="glass" min="0" max="25" value="0" title="Прозрачность окна" />
+        <span id="glassVal">0%</span>
+      </div>
+    </footer>
+  </div>
+  <script src="search-engine.js"></script>
+  <script src="changes-ui.js"></script>
+  <script src="app.js"></script>
+  <script src="features.js"></script>
+</body>
+</html>
